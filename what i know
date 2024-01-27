@@ -1,0 +1,16 @@
+#what i know so far, I'm sorry its not enough. I am behind in learning and trying to understand everything all at once.
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string greeting = "Hello World";
+      string intro = greeting +  " my name is kestlie, I am ";
+      int age = 20;
+      Console.WriteLine(intro + age + " years old.");
+    }
+  }
+}
