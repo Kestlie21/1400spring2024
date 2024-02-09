@@ -1,0 +1,20 @@
+using System;
+
+{
+	Console.Write("Enter the number: ");
+	int numLevels = Convert.ToInt32(Console.ReadLine());
+	int i = 0;
+	do
+	{
+		i++;
+	}
+	while (i < 5);
+	if (i > 5)
+	{
+		Console.WriteLine("you are too high");
+	}
+	else
+	{
+		Console.WriteLine("too low");
+	}
+} 
